@@ -5,7 +5,7 @@ is_pinter = input("Apakah kamu pinter? (Ya/Tidak) ")
 is_setia = input("Apakah kamu setia? (Ya/Tidak) ")
 jumlahyes = 0;
 
-if (is_tampan == "Ya" or is_tampan == "ya"):
+if (is_tampan is "Ya" or is_tampan is "ya"):
     jumlahyes += 1
 
 if (is_kaya == "Ya" or is_kaya == "ya"):

@@ -1,6 +1,16 @@
-memberships_24T = ["Abu Bakr","Umar","Fofana","Ali","Usman","Ali"]
+x = [1,1,2,4,5] #list
+y = (1,1,2,4,5) #tuple ---> List yang datanya tidak berubah
+z = {1,2,3,4,5} #set ---> List yang tidak boleh ada yang sama
 
-print("Fofana is in the list =", "Fofana" in memberships_24T)
-print("Ali is in the list =", "Ali" in memberships_24T)
-print("Ali is not in the list =", "Ali" not in memberships_24T)
+print(x)
+print(y)
+print(z)
+
+siswa = {
+    'nama' : 'Asep',
+    'kelas' : '24E',
+    'alamat' : 'Jl. Imam Bonjol'
+}
+
+print(siswa['kelas'])
 
