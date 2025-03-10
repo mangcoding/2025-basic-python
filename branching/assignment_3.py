@@ -27,8 +27,15 @@ perfect_score = any(score == 100 for score in (math, science, english))
 #equivalent with
 perfect_score = (math == 100 or science == 100 or english ==100)
 
-print(average, below_70, perfect_score)
 if (average > 75 or below_70 <=1 or perfect_score) :
     print("You passed the criteria")
 else:
     print("You are not passed the criteria")
+
+angka = 1
+keterangan = 'Genap' if angka % 2 else 'Ganjil'
+
+if angka % 2:
+    keterangan = 'Genap'
+else:
+    keterangan = 'Ganjil'
