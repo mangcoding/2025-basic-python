@@ -1,4 +1,9 @@
+names = ["Andi", "Ahmad"]
+
 def tempConvertion(value, fromTemp="C", toTemp="K") :
+    """
+        Metode yang digunakan untuk konversi suhu, kirim 3 parameter, terdiri dari nilai, suhu asal, dan suhu tujuan
+    """
     #put your function here
     if (fromTemp == toTemp) :
         print("the temperature is same")
@@ -47,3 +52,5 @@ def outputFormat(value) :
     degree_symbol = u'\N{DEGREE SIGN}'
     return str(round(value,3))+degree_symbol
 
+
+tempConvertion(fromTemp="C", toTemp="K", value=90)
